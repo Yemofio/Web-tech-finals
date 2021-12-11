@@ -107,12 +107,12 @@ insert into `Matchday` values(2410004, 10001, 10006, '5-1', '2019-11-05-08-30-00
 insert into `Matchday` values(2410005, 10003, 10004, '1-0', '2019-10-21-08-30-05');
 
 
-insert into `League_standings` values(60003, 'Kasanoma', 1, 4, 0, 1, 12);
-insert into `League_standings` values(60004, 'Elites', 2, 3, 1, 1, 10);
-insert into `League_standings` values(60002, 'Highlanders', 3, 3, 0, 2, 9);
-insert into `League_standings` values(60001, 'Red Army', 4, 2, 1, 2, 7);
-insert into `League_standings` values(60006, 'LOL', 5, 1, 2, 2, 5);
-insert into `League_standings` values(60005, 'Northside', 6, 0, 1, 4, 1);
+insert into `League_standings` values(60003, 10001, 'Kasanoma', 1, 4, 0, 1, 12);
+insert into `League_standings` values(60004, 10003, 'Elites', 2, 3, 1, 1, 10);
+insert into `League_standings` values(60002, 10005, 'Highlanders', 3, 3, 0, 2, 9);
+insert into `League_standings` values(60001, 10002, 'Red Army', 4, 2, 1, 2, 7);
+insert into `League_standings` values(60006, 10006, 'LOL', 5, 1, 2, 2, 5);
+insert into `League_standings` values(60005, 10004, 'Northside', 6, 0, 1, 4, 1);
 
 
 insert into `Team_fixture` values(2410001, 10001);
