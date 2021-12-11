@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect("localhost","username","","APL");
+$db = mysqli_connect("localhost","username","Nuclearbomb2","APL");
 
 if(!$db)
 {
