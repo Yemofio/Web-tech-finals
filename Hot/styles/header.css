@@ -1,0 +1,101 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  body {
+    width: 2000vw;
+    overflow-x: hidden;
+    align-items: center;
+  }
+  
+  
+  #nav {
+    color: #f4fffd;
+    background-color: #973441;
+    align-items: center;
+    align-content: center;
+  
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 29rem 1rem;
+  }
+  
+  #nav a {
+    text-decoration: none !important;
+    color: white;
+    font-size:xx-large;
+  }
+  
+  #brand,
+  #hamburger {
+    width: 50%;
+    cursor: pointer;
+  }
+  
+  #hamburger {
+    text-align: right;
+    user-select: none;
+  }
+  
+  #links {
+    display: flex;
+    flex-flow: column;
+    height: 0;
+    overflow: hidden;
+    width: 10%;
+  }
+
+
+  #links > div {
+    display: flex;
+    flex-flow: column;
+  }
+  
+  #links > div a {
+    padding: 1rem 0;
+  }
+  
+  .link {
+    font-weight: bold;
+    color: #f4fffd;
+    text-decoration: none;
+    margin: 0px;
+  }
+  
+  @media screen and (min-width: 700px) {
+    #links {
+      height: initial;
+      flex-flow: row;
+      justify-content: space-between;
+      width: 70%;
+    }
+  
+    #links input {
+      width: initial;
+      margin-top: 0;
+      padding: 0.5rem 1rem;
+      width: 50%;
+    }
+  
+    #links > div {
+      display: flex;
+      flex-flow: row;
+    }
+  
+    #links > div a {
+      margin: 0 1.2rem;
+    }
+  
+    #brand,
+    #hamburger {
+      width: initial;
+    }
+
+}
+
